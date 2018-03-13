@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\NCOMToFAMOSConverterCore\NCOMToFAMOSConverterCore\NCOMToFAMOSConverterCore.csproj">
+      <Project>{ed2ed33e-14c4-4f3d-8eb1-ac9dff8b30a2}</Project>
+      <Name>NCOMToFAMOSConverterCore</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
